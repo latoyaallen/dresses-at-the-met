@@ -25,11 +25,10 @@ const MOCK_DRESSES = [
     designHouse: 'Alexander McQueen',
     pageLink: 'https://www.metmuseum.org/art/collection/search/137826?sortBy=Relevance&amp;ft=Alexander+McQueen&amp;offset=0&amp;rpp=40&amp;pos=16'
   },
-
-]
-
-
+];
 
 function HomePage() {
-  return <DressList dresses={} />
+  return <DressList dresses={MOCK_DRESSES} />
 }
+
+export default HomePage
